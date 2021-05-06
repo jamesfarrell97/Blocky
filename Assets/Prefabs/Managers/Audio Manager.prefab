@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6483500429475538860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6483500429475538861}
+  - component: {fileID: 6483500429475538834}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6483500429475538861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483500429475538860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6483500429475538834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483500429475538860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8ceecc6b67675409d57897506eeee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 321b7614eaaf8fd46aa735dc2d1b4efe, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Air Flowing
+    clip: {fileID: 8300000, guid: 3d01b47fcea025548899424b68277e02, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Air Escape 1
+    clip: {fileID: 8300000, guid: f6a90641359986248846eff60ad103e2, type: 3}
+    volume: 0.025
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Air Escape 2
+    clip: {fileID: 8300000, guid: 5a3e00e63475515498346a1cc9ee7723, type: 3}
+    volume: 0.025
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Air Escape 3
+    clip: {fileID: 8300000, guid: 883d038fbeeae204ca273538cbfcf90b, type: 3}
+    volume: 0.025
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Bats Fluttering 1
+    clip: {fileID: 8300000, guid: 44c6bf3b15ce3bc4ab7bda8f9ce7b899, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Bats Fluttering 2
+    clip: {fileID: 8300000, guid: 9ac78e51fdc33b5478fdbcddb092834d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Bats Fluttering 3
+    clip: {fileID: 8300000, guid: 678bc8772a6f590479275b0fe683e5cc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Click 1
+    clip: {fileID: 8300000, guid: 7be986ad5638b3641828b283febc307e, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Click 2
+    clip: {fileID: 8300000, guid: ec83335898a4d644d9e232301d5c15d7, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Click 3
+    clip: {fileID: 8300000, guid: 9c8fab6e4d0d8ce42b4164e05b2c1a9e, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Grass 1
+    clip: {fileID: 8300000, guid: 162a5702a58d3c0419e6d647a9f6ce04, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Grass 2
+    clip: {fileID: 8300000, guid: 64fe9401fb2bdd148bc48455316258be, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Grass 3
+    clip: {fileID: 8300000, guid: 6c6bf470ee43b7a4faee66811334c5bd, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Stone 1
+    clip: {fileID: 8300000, guid: 8c22fde683e8db543b86dbee91d97556, type: 3}
+    volume: 0.1
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Stone 2
+    clip: {fileID: 8300000, guid: c84ff6d182d87d740845cdca8c1bdf2b, type: 3}
+    volume: 0.1
+    pitch: 0.4
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Stone 3
+    clip: {fileID: 8300000, guid: 378f69998893b094984fd549feccb984, type: 3}
+    volume: 0.1
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Wood 1
+    clip: {fileID: 8300000, guid: 1dc13df1639259d4ca5c848f0a140490, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Wood 2
+    clip: {fileID: 8300000, guid: 99cc637d5d5499d4293bdcc84f7c1924, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Blocky Land Wood 3
+    clip: {fileID: 8300000, guid: 02415537ed21ee345b8689e501609d14, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Building Settle
+    clip: {fileID: 8300000, guid: 82e4da36d62273d488fab79b2705a602, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Dust Crunch 1
+    clip: {fileID: 8300000, guid: c8aa32d73c8391e408112a767a1eb769, type: 3}
+    volume: 0.2
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+  - name: Dust Crunch 2
+    clip: {fileID: 8300000, guid: b156014839e6fcc42af3e9c7011bf639, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    source: {fileID: 0}
+    loop: 0
+  - name: Dust Crunch 3
+    clip: {fileID: 8300000, guid: 5e1429b9413948946a8014e2edd8e051, type: 3}
+    volume: 0.2
+    pitch: 0.7
+    source: {fileID: 0}
+    loop: 0
+  - name: Dust Fall
+    clip: {fileID: 8300000, guid: 354e2e3308c26a343a265baf118e5062, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Fire Crackling
+    clip: {fileID: 8300000, guid: 5b4d5bf00a835934b911a8ba0418b125, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Grass Rustle
+    clip: {fileID: 8300000, guid: cfdbf1de2921b4a429e2365ca0d8419b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Clack 1
+    clip: {fileID: 8300000, guid: 475a980d97194dd43aebd4a23d35cb81, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Clack 2
+    clip: {fileID: 8300000, guid: 5fdda9206b712c140b870fc67bc215ae, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Clack 3
+    clip: {fileID: 8300000, guid: 752a078e5bdecde44a5fc999a0101ea7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Clack 4
+    clip: {fileID: 8300000, guid: 661228ebc4805454bbfc82a14f95e123, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Clack 5
+    clip: {fileID: 8300000, guid: bdd911b8e7a23c2439aa21338dbefa24, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Click 1
+    clip: {fileID: 8300000, guid: f4f1c79ffc6ad414b81d3d78123fdb2c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Click 2
+    clip: {fileID: 8300000, guid: 8e51262cded644742bd9c8e6f9673cb3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Click 3
+    clip: {fileID: 8300000, guid: 0456def1b0dece14e81ed9d81fd103fa, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Click 4
+    clip: {fileID: 8300000, guid: 0263cbd300a3d9245b2c45052056e629, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Key Click 5
+    clip: {fileID: 8300000, guid: a830ca398562830448f8daaa6f673a63, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Keys Clicking Clacking 1
+    clip: {fileID: 8300000, guid: 996050f112aef1f459e92f4396db9703, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Keys Clicking Clacking 2
+    clip: {fileID: 8300000, guid: 5f0db99f4f701234da7411617a4ef37d, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Keys Clicking Clacking 3
+    clip: {fileID: 8300000, guid: bdbdc1202c99f3042b922c77dae7cc82, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Path Blocked
+    clip: {fileID: 8300000, guid: d1a4d8a525de5394eb4294db74ba56b0, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  sound3D: []

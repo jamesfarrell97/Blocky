@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Wood Ground
+  - Stone Ground
+  - Grass Ground
   layers:
   - Default
   - TransparentFX
@@ -13,15 +17,15 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Camera 1 Show
+  - Camera 1 Hide
+  - Camera 2 Show
+  - Camera 2 Hide
+  - Camera 3 Show
+  - Camera 3 Hide
+  - Camera 4 Show
+  - Camera 4 Hide
+  - Zone
   - 
   - 
   - 
